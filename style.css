@@ -49,3 +49,72 @@ body {
 
     gap:25px;
 }
+.service-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px var(--color-shadow);
+
+    transition:.3s;
+}
+.service-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 12px 25px var(--color-shadow);
+
+}
+.service-icon{
+
+    font-size:55px;
+
+    color:var(--color-primary);
+
+    margin-bottom:20px;
+
+}
+.service-title{
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+}
+
+.service-description{
+
+    color:var(--color-text-dark);
+
+    line-height:1.6;
+
+    margin-bottom:25px;
+
+}
+.service-button{
+
+    background:var(--color-primary);
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+.service-button:hover{
+
+    background:var(--color-shadow-hover)
+
+}

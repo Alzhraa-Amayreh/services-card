@@ -1,0 +1,22 @@
+
+:root {
+    --color-primary: #1f3c88;
+    --color-text-dark: #333;
+    --color-white:  #f4f7fb;
+    --color-shadow: rgba(0,0,0,.1);
+    --color-shadow-hover: #355ec9;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-white);
+    color: var(--color-text-dark);
+}
